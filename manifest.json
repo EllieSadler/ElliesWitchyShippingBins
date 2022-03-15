@@ -1,0 +1,12 @@
+{
+   "Name": "Ellie's Witchy Shipping Bins",
+   "Author": "EllieBellaLuna",
+   "Version": "1.0.0",
+   "Description": "Replaces the existing shipping bin with a more witch-friendly version.",
+   "UniqueID": "EllieBellaLuna.WitchyShippingBins",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

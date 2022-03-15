@@ -1,0 +1,505 @@
+{
+   "Format": "1.25.0",
+   "ConfigSchema": {
+      "Decoration": {
+         "AllowValues": "Moon Phases, Snake, Animal Skull, Purple Eyes, Yellow Eyes, None",
+         "Default": "Moon Phases"
+      }
+   },
+   "Changes": [
+      {
+         "LogName": "Shipping Bin Animations - Lid",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Animations.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 8,
+            "Width": 390,
+            "Height": 25
+         },
+         "ToArea": {
+            "X": 134,
+            "Y": 226,
+            "Width": 390,
+            "Height": 25
+         }
+      },
+      {
+         "LogName": "Shipping Bin Animations - Bin",
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Animations.png",
+         "FromArea": {
+            "X": 392,
+            "Y": 0,
+            "Width": 100,
+            "Height": 22
+         },
+         "ToArea": {
+            "X": 526,
+            "Y": 218,
+            "Width": 100,
+            "Height": 22
+         }
+      },
+      {
+         "LogName": "Shipping Bin",
+         "Action": "EditImage",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Shipping Bin.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 27
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 5,
+            "Width": 32,
+            "Height": 27
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Animal Skull - 1",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Animal Skull.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 15,
+            "Height": 11
+         },
+         "ToArea": {
+            "X": 533,
+            "Y": 232,
+            "Width": 15,
+            "Height": 11
+         },
+         "When": {
+            "Decoration": "Animal Skull"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Animal Skull - 2",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Animal Skull.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 15,
+            "Height": 11
+         },
+         "ToArea": {
+            "X": 567,
+            "Y": 232,
+            "Width": 15,
+            "Height": 11
+         },
+         "When": {
+            "Decoration": "Animal Skull"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Animal Skull - 3",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Animal Skull.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 15,
+            "Height": 11
+         },
+         "ToArea": {
+            "X": 601,
+            "Y": 232,
+            "Width": 15,
+            "Height": 11
+         },
+         "When": {
+            "Decoration": "Animal Skull"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Animal Skull",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Animal Skull.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 15,
+            "Height": 11
+         },
+         "ToArea": {
+            "X": 8,
+            "Y": 19,
+            "Width": 15,
+            "Height": 11
+         },
+         "When": {
+            "Decoration": "Animal Skull"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Moon Phases - 1",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Moon Phases.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 5
+         },
+         "ToArea": {
+            "X": 533,
+            "Y": 235,
+            "Width": 16,
+            "Height": 5
+         },
+         "When": {
+            "Decoration": "Moon Phases"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Moon Phases - 2",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Moon Phases.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 5
+         },
+         "ToArea": {
+            "X": 567,
+            "Y": 235,
+            "Width": 16,
+            "Height": 5
+         },
+         "When": {
+            "Decoration": "Moon Phases"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Moon Phases - 3",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Moon Phases.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 5
+         },
+         "ToArea": {
+            "X": 601,
+            "Y": 235,
+            "Width": 16,
+            "Height": 5
+         },
+         "When": {
+            "Decoration": "Moon Phases"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Moon Phases",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Moon Phases.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 5
+         },
+         "ToArea": {
+            "X": 8,
+            "Y": 22,
+            "Width": 16,
+            "Height": 5
+         },
+         "When": {
+            "Decoration": "Moon Phases"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Snake - 1",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Snake.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 11,
+            "Height": 9
+         },
+         "ToArea": {
+            "X": 535,
+            "Y": 233,
+            "Width": 11,
+            "Height": 9
+         },
+         "When": {
+            "Decoration": "Snake"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Snake - 2",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Snake.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 11,
+            "Height": 9
+         },
+         "ToArea": {
+            "X": 569,
+            "Y": 233,
+            "Width": 11,
+            "Height": 9
+         },
+         "When": {
+            "Decoration": "Snake"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Snake - 3",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Snake.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 11,
+            "Height": 9
+         },
+         "ToArea": {
+            "X": 603,
+            "Y": 233,
+            "Width": 11,
+            "Height": 9
+         },
+         "When": {
+            "Decoration": "Snake"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Snake",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Snake.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 11,
+            "Height": 9
+         },
+         "ToArea": {
+            "X": 10,
+            "Y": 20,
+            "Width": 11,
+            "Height": 9
+         },
+         "When": {
+            "Decoration": "Snake"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Purple Eyes - 1",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Purple Eyes.png",
+         "FromArea": {
+            "X": 120,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 529,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Purple Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Purple Eyes - 2",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Purple Eyes.png",
+         "FromArea": {
+            "X": 144,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 563,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Purple Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Purple Eyes - 3",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Purple Eyes.png",
+         "FromArea": {
+            "X": 168,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 597,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Purple Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Purple Eyes",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Purple Eyes.png",
+         "FromArea": {
+            "X": 96,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 4,
+            "Y": 18,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Purple Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Yellow Eyes - 1",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Yellow Eyes.png",
+         "FromArea": {
+            "X": 120,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 529,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Yellow Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Yellow Eyes - 2",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Yellow Eyes.png",
+         "FromArea": {
+            "X": 144,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 563,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Yellow Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Yellow Eyes - 3",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Yellow Eyes.png",
+         "FromArea": {
+            "X": 168,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 597,
+            "Y": 231,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Yellow Eyes"
+         }
+      },
+      {
+         "LogName": "Shipping Bin Decoration - Yellow Eyes",
+         "Action": "EditImage",
+         "PatchMode": "Overlay",
+         "Target": "Buildings/Shipping Bin",
+         "FromFile": "assets/Yellow Eyes.png",
+         "FromArea": {
+            "X": 96,
+            "Y": 0,
+            "Width": 24,
+            "Height": 7
+         },
+         "ToArea": {
+            "X": 4,
+            "Y": 18,
+            "Width": 24,
+            "Height": 7
+         },
+         "When": {
+            "Decoration": "Yellow Eyes"
+         }
+      }
+   ]
+}
